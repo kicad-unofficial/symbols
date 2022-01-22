@@ -1,0 +1,504 @@
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "SZESD7104MUTAG" (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at 3.175 1.27 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "SZESD7104MUTAG" (id 1) (at 3.175 -1.27 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Vendor_onsemi:onsemi 517BB−01" (id 2) (at 3.81 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd7104-d.pdf" (id 3) (at 3.81 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "ki_locked" "" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "ki_keywords" "diode tvs esd automotive aec" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "ESD7104, low capacitance ESD protection diode for high speed data line, 5Vrwm, automotive qualified, UDFN10" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "SZESD7104MUTAG_1_0"
+      (polyline
+        (pts
+          (xy 0.32 1.6)
+          (xy 0.64 1.92)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.96 2.24)
+          (xy 1.28 2.56)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.6 2.88)
+          (xy 1.92 3.2)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.24 3.52)
+          (xy 2.56 3.84)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin bidirectional line (at 0 6.35 270) (length 2.54)
+        (name "" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin free line (at 2.54 6.35 270) (length 2.54)
+        (name "" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "SZESD7104MUTAG_1_1"
+      (circle (center 0 -3.18) (radius 0.127)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.63)
+          (xy 0 -3.18)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 3.84)
+          (xy 0 0.63)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.635 0.63)
+          (xy 0.635 0.63)
+          (xy 0.635 0.376)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.63)
+          (xy 0.635 -0.64)
+          (xy -0.635 -0.64)
+          (xy 0 0.63)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
+      )
+    )
+    (symbol "SZESD7104MUTAG_2_0"
+      (polyline
+        (pts
+          (xy 0.32 1.6)
+          (xy 0.64 1.92)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.96 2.24)
+          (xy 1.28 2.56)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.6 2.88)
+          (xy 1.92 3.2)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.24 3.52)
+          (xy 2.56 3.84)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin bidirectional line (at 0 6.35 270) (length 2.54)
+        (name "" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin free line (at 2.54 6.35 270) (length 2.54)
+        (name "" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "SZESD7104MUTAG_2_1"
+      (circle (center -0.005 -3.17) (radius 0.127)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.005 0.64)
+          (xy -0.005 -3.17)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.005 3.85)
+          (xy -0.005 0.64)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.64 0.64)
+          (xy 0.63 0.64)
+          (xy 0.63 0.386)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.005 0.64)
+          (xy 0.63 -0.63)
+          (xy -0.64 -0.63)
+          (xy -0.005 0.64)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
+      )
+    )
+    (symbol "SZESD7104MUTAG_3_0"
+      (polyline
+        (pts
+          (xy 0.32 1.6)
+          (xy 0.64 1.92)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.96 2.24)
+          (xy 1.28 2.56)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.6 2.88)
+          (xy 1.92 3.2)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.24 3.52)
+          (xy 2.56 3.84)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin bidirectional line (at 0 6.35 270) (length 2.54)
+        (name "" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin free line (at 2.54 6.35 270) (length 2.54)
+        (name "" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "SZESD7104MUTAG_3_1"
+      (circle (center 0 -3.18) (radius 0.127)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.63)
+          (xy 0 -3.18)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 3.84)
+          (xy 0 0.63)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.635 0.63)
+          (xy 0.635 0.63)
+          (xy 0.635 0.376)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.63)
+          (xy 0.635 -0.64)
+          (xy -0.635 -0.64)
+          (xy 0 0.63)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
+      )
+    )
+    (symbol "SZESD7104MUTAG_4_0"
+      (polyline
+        (pts
+          (xy 0.32 1.6)
+          (xy 0.64 1.92)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.96 2.24)
+          (xy 1.28 2.56)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.6 2.88)
+          (xy 1.92 3.2)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.24 3.52)
+          (xy 2.56 3.84)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin bidirectional line (at 0 6.35 270) (length 2.54)
+        (name "" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin free line (at 2.54 6.35 270) (length 2.54)
+        (name "" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "SZESD7104MUTAG_4_1"
+      (circle (center 0 -3.18) (radius 0.127)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.63)
+          (xy 0 -3.18)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 3.84)
+          (xy 0 0.63)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.635 0.63)
+          (xy 0.635 0.63)
+          (xy 0.635 0.376)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.63)
+          (xy 0.635 -0.64)
+          (xy -0.635 -0.64)
+          (xy 0 0.63)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
+      )
+    )
+    (symbol "SZESD7104MUTAG_5_0"
+      (polyline
+        (pts
+          (xy -1.905 1.905)
+          (xy 1.905 1.905)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 3.175)
+          (xy -1.905 1.905)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.635 3.175)
+          (xy -0.635 1.905)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 1.905)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.62 -1.89)
+          (xy 0.3 -1.57)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.26 -2.53)
+          (xy 0.94 -2.21)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.9 -3.17)
+          (xy 1.58 -2.85)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.905 3.175)
+          (xy 1.905 1.905)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 -3.81)
+          (xy 2.22 -3.49)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin power_in line (at 0 -6.35 90) (length 2.54)
+        (name "" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin free line (at 2.54 -6.35 90) (length 2.54)
+        (name "" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "SZESD7104MUTAG_5_1"
+      (circle (center -1.905 3.175) (radius 0.127)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center -0.635 1.905) (radius 0.127)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center -0.635 3.175) (radius 0.127)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -3.81)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.635 1.905)
+          (xy 0.635 3.175)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.635 -0.635)
+          (xy -0.635 -0.635)
+          (xy -0.635 -0.381)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -0.635)
+          (xy -0.635 0.635)
+          (xy 0.635 0.635)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
+      )
+      (circle (center 0 1.905) (radius 0.127)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0.635 1.905) (radius 0.127)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0.635 3.175) (radius 0.127)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 1.905 3.175) (radius 0.127)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+  )
+)
