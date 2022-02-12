@@ -56,13 +56,13 @@ library contains symbols for a specific vendor or manufacturer.
 - [1551KRBK](https://www.hammfg.com/files/parts/pdf/1551KRBK.pdf) 📦&nbsp; &mdash; enclosure, 80x40x20mm, black, key ring
 - [1551KRGY](https://www.hammfg.com/files/parts/pdf/1551KRGY.pdf) 📦&nbsp; &mdash; enclosure, 80x40x20mm, gray, key ring
 - [1551KTBU](https://www.hammfg.com/files/parts/pdf/1551KTBU.pdf) 📦&nbsp; &mdash; enclosure, 80x40x20mm, translucent blue
-- [1591XXLBK](https://www.hammfg.com/files/parts/pdf/1591XXLBK.pdf) 📦&nbsp; &mdash; enclosure, 86x56x36mm, black, brass screw inserts (lid), flame retardant
-- [1591XXLFLBK](https://www.hammfg.com/files/parts/pdf/1591XXLFLBK.pdf) 📦&nbsp; &mdash; enclosure, 86x56x36mm, black, mounting flanges, brass screw inserts (lid), flame retardant
-- [1591XXLFLGY](https://www.hammfg.com/files/parts/pdf/1591XXLFLGY.pdf) 📦&nbsp; &mdash; enclosure, 86x56x36mm, gray, mounting flanges, brass screw inserts (lid), flame retardant
-- [1591XXLGY](https://www.hammfg.com/files/parts/pdf/1591XXLGY.pdf) 📦&nbsp; &mdash; enclosure, 86x56x36mm, gray, brass screw inserts (lid), flame retardant
+- [1591XXLBK](https://www.hammfg.com/files/parts/pdf/1591XXLBK.pdf) 📦&nbsp; &mdash; enclosure, 86x56x36mm, black, brass inserts (lid), flame retardant
+- [1591XXLFLBK](https://www.hammfg.com/files/parts/pdf/1591XXLFLBK.pdf) 📦&nbsp; &mdash; enclosure, 86x56x36mm, black, mounting flanges, brass inserts (lid), flame retardant
+- [1591XXLFLGY](https://www.hammfg.com/files/parts/pdf/1591XXLFLGY.pdf) 📦&nbsp; &mdash; enclosure, 86x56x36mm, gray, mounting flanges, brass inserts (lid), flame retardant
+- [1591XXLGY](https://www.hammfg.com/files/parts/pdf/1591XXLGY.pdf) 📦&nbsp; &mdash; enclosure, 86x56x36mm, gray, brass inserts (lid), flame retardant
 - [1591XXLSBK](https://www.hammfg.com/files/parts/pdf/1591XXLSBK.pdf) 📦&nbsp; &mdash; enclosure, 86x56x36mm, black, self-tapping screws (lid)
 - [1591XXLSFLBK](https://www.hammfg.com/files/parts/pdf/1591XXLSFLBK.pdf) 📦&nbsp; &mdash; enclosure, 86x56x36mm, black, mounting flanges, self-tapping screws (lid)
-- [1591XXLTBU](https://www.hammfg.com/files/parts/pdf/1591XXLTBU.pdf) 📦&nbsp; &mdash; enclosure, 86x56x36mm, translucent blue, brass screw inserts (lid)
+- [1591XXLTBU](https://www.hammfg.com/files/parts/pdf/1591XXLTBU.pdf) 📦&nbsp; &mdash; enclosure, 86x56x36mm, translucent blue, brass inserts (lid)
 
 ### NXP
 
