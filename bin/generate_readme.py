@@ -20,6 +20,9 @@ def symbol_cmp(a, b):
 
 
 def footprint_markdown(sym):
+    if "enclosure" in sym.get_property("ki_description").value.lower():
+        return ""
+
     fp = sym.get_property("Footprint").value
     if not fp.startswith("Vendor_"):
         return ""
@@ -29,10 +32,6 @@ def footprint_markdown(sym):
     fp = fp.removeprefix(lib)
     fp = fp.replace("_", " ")
     fp = fp.strip(", ")
-
-    if fp in sym.name:
-        # Don't display the footprint at all if it's specific to this part.
-        return ""
 
     anchor = f"user-content-{lib}_{fp}".lower()
 
@@ -131,7 +130,7 @@ for file in files:
         item += f" &mdash; {desc}"
 
         if fp:
-            item += f", {fp}"
+            item += f" &mdash; {fp}"
 
         print(item)
 
@@ -143,7 +142,7 @@ for file in files:
 
                 item = f"  - [{child.name}]({child_url}) &mdash; {child_desc}"
                 if child_fp != fp:
-                    item += f", {child_fp}"
+                    item += f" &mdash; {child_fp}"
 
                 print(item)
 

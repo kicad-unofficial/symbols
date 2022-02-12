@@ -43,9 +43,17 @@ Enclosure footprints define the edge cuts layer (PCB shape) and mounting holes.
 This is an index of the available libraries and the symbols they contain. Each
 library contains symbols for a specific vendor or manufacturer.
 
+- [Espressif](#espressif)
 - [Hammond](#hammond)
 - [NXP](#nxp)
 - [onsemi](#onsemi)
+
+### Espressif
+
+- [ESP-PROG_JTAG_Counter_Clockwise](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html)  &mdash; JTAG connector for ESP32 and ESP-PROG debugger, counter-clockwise pinout
+- [ESP-PROG_JTAG_Odd_Even](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html)  &mdash; JTAG connector for ESP32 and ESP-PROG debugger, odd/even pinout
+  - [ESP-PROG_JTAG_TC2050-NL](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; TC2050-NL &mdash; [TagConnect TC2050-NL](https://github.com/kicad-unofficial/footprints#user-content-tagconnect_tc2050-nl)
+  - [ESP-PROG_JTAG_TC2050-NL+CLIP](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; TC2050-NL with clearance for TC2050-CLIP &mdash; [TagConnect TC2050-NL+CLIP](https://github.com/kicad-unofficial/footprints#user-content-tagconnect_tc2050-nl+clip)
 
 ### Hammond
 
@@ -67,12 +75,12 @@ library contains symbols for a specific vendor or manufacturer.
 ### NXP
 
 - [74LV1T34-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) 🚗&nbsp; &mdash; single supply translating buffer, automotive qualified
-  - [74LV1T34GV-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) &mdash; SC-74A, [NXP SOT-753](https://github.com/kicad-unofficial/footprints#user-content-nxp_sot-753)
-  - [74LV1T34GW-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) &mdash; TSSOP-5, [NXP SOT-353-1](https://github.com/kicad-unofficial/footprints#user-content-nxp_sot-353-1)
+  - [74LV1T34GV-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) &mdash; SC-74A &mdash; [NXP SOT-753](https://github.com/kicad-unofficial/footprints#user-content-nxp_sot-753)
+  - [74LV1T34GW-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) &mdash; TSSOP-5 &mdash; [NXP SOT-353-1](https://github.com/kicad-unofficial/footprints#user-content-nxp_sot-353-1)
 
 ### onsemi
 
-- [SZESD7104MUTAG](https://www.onsemi.com/pdf/datasheet/esd7104-d.pdf) 🚗&nbsp; &mdash; ESD7104, low capacitance ESD protection diode for high speed data line, 5Vrwm, automotive qualified, UDFN10, [onsemi 517BB−01](https://github.com/kicad-unofficial/footprints#user-content-onsemi_517bb−01)
+- [SZESD7104MUTAG](https://www.onsemi.com/pdf/datasheet/esd7104-d.pdf) 🚗&nbsp; &mdash; ESD7104, low capacitance ESD protection diode for high speed data line, 5Vrwm, automotive qualified, UDFN10 &mdash; [onsemi 517BB−01](https://github.com/kicad-unofficial/footprints#user-content-onsemi_517bb−01)
 
 ## Notes for Symbol Creators
 
