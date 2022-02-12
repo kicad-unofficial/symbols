@@ -3,7 +3,7 @@
 
 # Symbol Libraries
 
-**An unofficial collection of schematic symbols for KiCad 6.**
+An unofficial collection of schematic symbols for KiCad 6.
 
 ## Atomic Parts
 
@@ -86,6 +86,8 @@ library contains symbols for a specific vendor or manufacturer.
 - For automotive qualified parts:
   - Include `automotive` and `aec` keywords
   - Include `automotive qualified` in the description
+
+<!-- references -->
 
 [kicad library conventions]: https://klc.kicad.org/general/g2/g2.1/
 
