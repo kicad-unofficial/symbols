@@ -12,17 +12,21 @@ This is an unofficial collection of symbol libraries for KiCad 6. It depends on
 the footprint libraries in [the footprints
 repository](https://github.com/kicad-unofficial/footprints).
 
-## Symbols
+Each library contains symbols for a specific vendor or manufacturer. All symbols
+are "fully specified", meaning that they uniquely identify a specific part with
+a specific footprint.
 
-Symbols are organized into libraries by manufacturer/vendor. All symbols are
-"fully specified", meaning that they uniquely identify a specific part with a
-specific footprint.
+They are designed to require no further specification once placed into the
+schematic. Where necessary an [`Octopart Query` field](https://github.com/kicad-unofficial/bom/tree/main/octopart#readme) is
+included such that the symbol can be used with the [Octopart BOM generator](https://github.com/kicad-unofficial/bom/tree/main/octopart).
 
 ### Enclosure Symbols
 
 Perhaps unconventially, some of these symbols represent PCB enclosures. The
 footprint of these symbols defines the edge cuts layer and mounting holes for a
 PCB that is suitable for the enclosure.
+
+## Symbol Index
 """)
 
 for file in files:
