@@ -51,12 +51,12 @@ library contains symbols for a specific vendor or manufacturer.
 
 ### Espressif
 
-- [ESP-PROG_JTAG_Counter_Clockwise](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; JTAG connector for ESP-PROG board • counter-clockwise pinout
-- [ESP-PROG_JTAG_Odd_Even](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; JTAG connector for ESP-PROG board • odd/even pinout
+- [ESP-PROG_JTAG_Counter_Clockwise](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; ESP-PROG JTAG header • counter-clockwise pinout
+- [ESP-PROG_JTAG_Odd_Even](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; ESP-PROG JTAG header • odd/even pinout
   - [ESP-PROG_JTAG_TC2050-NL](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; TC2050-NL [👣](https://github.com/kicad-unofficial/footprints#user-content-tagconnect_tc2050-nl 'Footprint: TagConnect TC2050-NL')
   - [ESP-PROG_JTAG_TC2050-NL+CLIP](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; TC2050-NL • clearance for TC2050-CLIP [👣](https://github.com/kicad-unofficial/footprints#user-content-tagconnect_tc2050-nl+clip 'Footprint: TagConnect TC2050-NL+CLIP')
-- [ESP-PROG_Program_Counter_Clockwise](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; programming connector for ESP-PROG board • counter-clockwise pinout
-- [ESP-PROG_Program_Odd_Even](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; programming connector for ESP-PROG board • odd/even pinout
+- [ESP-PROG_Program_Counter_Clockwise](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; ESP-PROG programming header • counter-clockwise pinout
+- [ESP-PROG_Program_Odd_Even](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; ESP-PROG programming header • odd/even pinout
   - [ESP-PROG_Program_TC2030-NL](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; TC2030-NL [👣](https://github.com/kicad-unofficial/footprints#user-content-tagconnect_tc2030-nl 'Footprint: TagConnect TC2030-NL')
   - [ESP-PROG_Program_TC2030-NL+CLIP](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; TC2030-NL • clearance for TC2030-CLIP [👣](https://github.com/kicad-unofficial/footprints#user-content-tagconnect_tc2030-nl+clip 'Footprint: TagConnect TC2030-NL+CLIP')
 
