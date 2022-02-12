@@ -82,12 +82,12 @@ for file in files:
 
         for child in lib.symbols:
             if child.extends == sym.name:
-                childDesc = child.get_property("ki_description").value
-                childDesc = childDesc.replace(sym.name,  "")
-                childDesc = childDesc.replace(desc,  "")
-                childDesc = childDesc.removeprefix(sym.name).strip(", ")
-                childURL = child.get_property("Datasheet").value
-                print(f"  - [{child.name}]({childURL}) &mdash; {childDesc}")
+                child_desc = child.get_property("ki_description").value
+                child_desc = child_desc.replace(sym.name,  "")
+                child_desc = child_desc.replace(desc,  "")
+                child_desc = child_desc.removeprefix(sym.name).strip(", ")
+                child_url = child.get_property("Datasheet").value
+                print(f"  - [{child.name}]({child_url}) &mdash; {child_desc}")
 
     print()
 
