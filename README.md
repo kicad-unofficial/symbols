@@ -11,10 +11,10 @@ The footprints used by these symbols are in the [footprints] repository.
 These symbols are intended to require no further specification once placed into
 the schematic.
 
-To that end, parts are only included if their symbol can be "fully-specified",
-meaning that it uniquely identifies a specific part that can be ordered from a
-supplier. Generic (non-fully-specified) symbols _are_ also provided for parts
-that are available in multiple footprints.
+Parts are only included if their symbol can be "fully-specified". This means
+each symbol uniquely identifies a specific part that can be ordered from a
+supplier. Generic (non-fully-specified) symbols are also provided for parts that
+are available in multiple footprints.
 
 Where appropriate, an `Octopart Query` field is added for use with the [Octopart
 BOM generator].
@@ -41,6 +41,9 @@ for the PCB.
 This is an index of the available libraries and the symbols they contain. Each
 library contains symbols for a specific vendor or manufacturer.
 
+- [Hammond](#hammond)
+- [NXP](#nxp)
+- [onsemi](#onsemi)
 ### Hammond
 
 - [1551KBK](https://www.hammfg.com/files/parts/pdf/1551KBK.pdf) 📦&nbsp; &mdash; enclosure, 80x40x20mm, black

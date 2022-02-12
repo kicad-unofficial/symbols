@@ -19,10 +19,10 @@ The footprints used by these symbols are in the [footprints] repository.
 These symbols are intended to require no further specification once placed into
 the schematic.
 
-To that end, parts are only included if their symbol can be "fully-specified",
-meaning that it uniquely identifies a specific part that can be ordered from a
-supplier. Generic (non-fully-specified) symbols _are_ also provided for parts
-that are available in multiple footprints.
+Parts are only included if their symbol can be "fully-specified". This means
+each symbol uniquely identifies a specific part that can be ordered from a
+supplier. Generic (non-fully-specified) symbols are also provided for parts that
+are available in multiple footprints.
 
 Where appropriate, an `Octopart Query` field is added for use with the [Octopart
 BOM generator].
@@ -51,13 +51,14 @@ library contains symbols for a specific vendor or manufacturer.
 """)
 
 for file in files:
-    lib = KicadLibrary.from_file(file)
-    base = basename(file)
-    name, _ = splitext(base)
+    name, _ = splitext(basename(file).removeprefix('Vendor_'))
+    print(f"- [{name}](#{name.lower()})")
 
-    print(f"### {name.removeprefix('Vendor_')}")
-    # print()
-    # print(f"These symbols are contained in the [`{name}`]({base}) library.")
+for file in files:
+    name, _ = splitext(basename(file).removeprefix('Vendor_'))
+    lib = KicadLibrary.from_file(file)
+
+    print(f"### {name}")
     print()
 
     for sym in lib.symbols:
