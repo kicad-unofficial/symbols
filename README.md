@@ -79,7 +79,7 @@ library contains symbols for a specific vendor or manufacturer.
 
 ### NXP
 
-- [74LV1T34-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) [🚗](#automotive-qualified-parts 'Automotive Qualified Part') &mdash; single supply translating buffer
+- [74LV1T34-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) [🚗](#automotive-qualified-parts 'Automotive Qualified Part') &mdash; single supply translating buffer • 5Vmax
   - [74LV1T34GV-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) &mdash; SC-74A [👣](https://github.com/kicad-unofficial/footprints#user-content-nxp_sot-753 'Footprint: NXP SOT-753')
   - [74LV1T34GW-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) &mdash; TSSOP-5 [👣](https://github.com/kicad-unofficial/footprints#user-content-nxp_sot-353-1 'Footprint: NXP SOT-353-1')
 
