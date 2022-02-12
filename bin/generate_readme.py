@@ -35,7 +35,7 @@ def footprint_markdown(sym):
 
     anchor = f"user-content-{lib}_{fp}".lower()
 
-    return f"[👣&nbsp;](https://github.com/kicad-unofficial/footprints#{anchor} 'Footprint: {lib} {fp}')"
+    return f"[👣](https://github.com/kicad-unofficial/footprints#{anchor} 'Footprint: {lib} {fp}')"
 
 
 def child_description(parent, child):
@@ -79,13 +79,13 @@ For more information about "atomic" parts, "fully-specified" symbols and
 ## Automotive Qualified Parts
 
 Automotive qualified parts (AEC-Q100, etc) include the text `automotive
-qualified` in their description and are marked with a 🚗&nbsp; (car icon) in the
+qualified` in their description and are marked with a 🚗 (car icon) in the
 [symbol index] below.
 
 ## Enclosures
 
 Some symbols represent PCB enclosures rather than parts to be placed on the PCB.
-They are marked with a 📦&nbsp; (package icon) in the [symbol index] below.
+They are marked with a 📦 (package icon) in the [symbol index] below.
 
 Enclosure footprints define the edge cuts layer (PCB shape) and mounting holes.
 
@@ -123,9 +123,9 @@ for file in files:
         item = f"- [{sym.name}]({url}) "
 
         if "automotive" in desc.lower():
-            item += "[🚗 ](#automotive-qualified-parts 'Automotive Qualified Part')&nbsp;"
+            item += "[🚗](#automotive-qualified-parts 'Automotive Qualified Part')"
         if "enclosure" in desc.lower():
-            item += "[📦](#enclosures 'PCB Enclosure')&nbsp;"
+            item += "[📦](#enclosures 'PCB Enclosure')"
 
         item += f" &mdash; {desc}"
 
