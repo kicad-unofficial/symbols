@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import functools
 import os
+import re
 from bin.utils.common.kicad_sym import KicadSymbol
 from utils.common.kicad_sym import KicadLibrary
 import sys
@@ -9,8 +10,13 @@ files = sorted(sys.argv[1:], key=str.casefold)
 
 
 def symbol_cmp(a: KicadSymbol, b: KicadSymbol) -> int:
-    a = a.name.lower()
-    b = b.name.lower()
+    if is_enclosure(a) and is_enclosure(b):
+        # Sort enclosures by description (and therefore size)
+        a = a.get_property("ki_description").value.lower()
+        b = b.get_property("ki_description").value.lower()
+    else:
+        a = a.name.lower()
+        b = b.name.lower()
 
     if a.startswith(b):
         return +1
@@ -44,6 +50,11 @@ def description(sym: KicadSymbol) -> str:
     desc = desc.replace("automotive qualified", "")
     desc = desc.replace("enclosure", "")
     desc = desc.replace("flame retardant", "")
+
+    def rep(m: re.Match):
+        return m.group(0).replace("x", "×")
+
+    desc = re.sub("([0-9]+x)+[0-9]+mm", rep, desc)
 
     while ", , " in desc:
         desc = desc.replace(", , ", ", ")
