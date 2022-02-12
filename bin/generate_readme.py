@@ -35,7 +35,7 @@ def footprint_markdown(sym):
 
     anchor = f"user-content-{lib}_{fp}".lower()
 
-    return f"[{lib} {fp}](https://github.com/kicad-unofficial/footprints#{anchor})"
+    return f"[👣&nbsp;](https://github.com/kicad-unofficial/footprints#{anchor} 'Footprint: {lib} {fp}')"
 
 
 def child_description(parent, child):
@@ -123,14 +123,14 @@ for file in files:
         item = f"- [{sym.name}]({url}) "
 
         if "automotive" in desc.lower():
-            item += "🚗&nbsp;"
+            item += "[🚗 ](#automotive-qualified-parts 'Automotive Qualified Part')&nbsp;"
         if "enclosure" in desc.lower():
-            item += "📦&nbsp;"
+            item += "[📦](#enclosures 'PCB Enclosure')&nbsp;"
 
         item += f" &mdash; {desc}"
 
         if fp:
-            item += f" &mdash; {fp}"
+            item += f" {fp}"
 
         print(item)
 
@@ -142,7 +142,7 @@ for file in files:
 
                 item = f"  - [{child.name}]({child_url}) &mdash; {child_desc}"
                 if child_fp != fp:
-                    item += f" &mdash; {child_fp}"
+                    item += f" {child_fp}"
 
                 print(item)
 

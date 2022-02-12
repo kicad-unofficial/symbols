@@ -50,37 +50,37 @@ library contains symbols for a specific vendor or manufacturer.
 
 ### Espressif
 
-- [ESP-PROG_JTAG_Counter_Clockwise](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html)  &mdash; JTAG connector for ESP32 and ESP-PROG debugger, counter-clockwise pinout
-- [ESP-PROG_JTAG_Odd_Even](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html)  &mdash; JTAG connector for ESP32 and ESP-PROG debugger, odd/even pinout
-  - [ESP-PROG_JTAG_TC2050-NL](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; TC2050-NL &mdash; [TagConnect TC2050-NL](https://github.com/kicad-unofficial/footprints#user-content-tagconnect_tc2050-nl)
-  - [ESP-PROG_JTAG_TC2050-NL+CLIP](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; TC2050-NL with clearance for TC2050-CLIP &mdash; [TagConnect TC2050-NL+CLIP](https://github.com/kicad-unofficial/footprints#user-content-tagconnect_tc2050-nl+clip)
+- [ESP-PROG_JTAG_Counter_Clockwise](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html)  &mdash; JTAG connector for ESP-PROG debugger, counter-clockwise pinout
+- [ESP-PROG_JTAG_Odd_Even](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html)  &mdash; JTAG connector for ESP-PROG debugger, odd/even pinout
+  - [ESP-PROG_JTAG_TC2050-NL](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; TC2050-NL [👣&nbsp;](https://github.com/kicad-unofficial/footprints#user-content-tagconnect_tc2050-nl 'Footprint: TagConnect TC2050-NL')
+  - [ESP-PROG_JTAG_TC2050-NL+CLIP](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; TC2050-NL, clearance for TC2050-CLIP [👣&nbsp;](https://github.com/kicad-unofficial/footprints#user-content-tagconnect_tc2050-nl+clip 'Footprint: TagConnect TC2050-NL+CLIP')
 
 ### Hammond
 
-- [1551KBK](https://www.hammfg.com/files/parts/pdf/1551KBK.pdf) 📦&nbsp; &mdash; enclosure, 80x40x20mm, black
-- [1551KFLBK](https://www.hammfg.com/files/parts/pdf/1551KFLBK.pdf) 📦&nbsp; &mdash; enclosure, 80x40x20mm, black, mounting flanges
-- [1551KFLGY](https://www.hammfg.com/files/parts/pdf/1551KFLGY.pdf) 📦&nbsp; &mdash; enclosure, 80x40x20mm, gray, mounting flanges
-- [1551KGY](https://www.hammfg.com/files/parts/pdf/1551KGY.pdf) 📦&nbsp; &mdash; enclosure, 80x40x20mm, Gray
-- [1551KRBK](https://www.hammfg.com/files/parts/pdf/1551KRBK.pdf) 📦&nbsp; &mdash; enclosure, 80x40x20mm, black, key ring
-- [1551KRGY](https://www.hammfg.com/files/parts/pdf/1551KRGY.pdf) 📦&nbsp; &mdash; enclosure, 80x40x20mm, gray, key ring
-- [1551KTBU](https://www.hammfg.com/files/parts/pdf/1551KTBU.pdf) 📦&nbsp; &mdash; enclosure, 80x40x20mm, translucent blue
-- [1591XXLBK](https://www.hammfg.com/files/parts/pdf/1591XXLBK.pdf) 📦&nbsp; &mdash; enclosure, 86x56x36mm, black, brass inserts (lid), flame retardant
-- [1591XXLFLBK](https://www.hammfg.com/files/parts/pdf/1591XXLFLBK.pdf) 📦&nbsp; &mdash; enclosure, 86x56x36mm, black, mounting flanges, brass inserts (lid), flame retardant
-- [1591XXLFLGY](https://www.hammfg.com/files/parts/pdf/1591XXLFLGY.pdf) 📦&nbsp; &mdash; enclosure, 86x56x36mm, gray, mounting flanges, brass inserts (lid), flame retardant
-- [1591XXLGY](https://www.hammfg.com/files/parts/pdf/1591XXLGY.pdf) 📦&nbsp; &mdash; enclosure, 86x56x36mm, gray, brass inserts (lid), flame retardant
-- [1591XXLSBK](https://www.hammfg.com/files/parts/pdf/1591XXLSBK.pdf) 📦&nbsp; &mdash; enclosure, 86x56x36mm, black, self-tapping screws (lid)
-- [1591XXLSFLBK](https://www.hammfg.com/files/parts/pdf/1591XXLSFLBK.pdf) 📦&nbsp; &mdash; enclosure, 86x56x36mm, black, mounting flanges, self-tapping screws (lid)
-- [1591XXLTBU](https://www.hammfg.com/files/parts/pdf/1591XXLTBU.pdf) 📦&nbsp; &mdash; enclosure, 86x56x36mm, translucent blue, brass inserts (lid)
+- [1551KBK](https://www.hammfg.com/files/parts/pdf/1551KBK.pdf) [📦](#enclosures 'PCB Enclosure')&nbsp; &mdash; enclosure, 80x40x20mm, black
+- [1551KFLBK](https://www.hammfg.com/files/parts/pdf/1551KFLBK.pdf) [📦](#enclosures 'PCB Enclosure')&nbsp; &mdash; enclosure, 80x40x20mm, black, mounting flanges
+- [1551KFLGY](https://www.hammfg.com/files/parts/pdf/1551KFLGY.pdf) [📦](#enclosures 'PCB Enclosure')&nbsp; &mdash; enclosure, 80x40x20mm, gray, mounting flanges
+- [1551KGY](https://www.hammfg.com/files/parts/pdf/1551KGY.pdf) [📦](#enclosures 'PCB Enclosure')&nbsp; &mdash; enclosure, 80x40x20mm, Gray
+- [1551KRBK](https://www.hammfg.com/files/parts/pdf/1551KRBK.pdf) [📦](#enclosures 'PCB Enclosure')&nbsp; &mdash; enclosure, 80x40x20mm, black, key ring
+- [1551KRGY](https://www.hammfg.com/files/parts/pdf/1551KRGY.pdf) [📦](#enclosures 'PCB Enclosure')&nbsp; &mdash; enclosure, 80x40x20mm, gray, key ring
+- [1551KTBU](https://www.hammfg.com/files/parts/pdf/1551KTBU.pdf) [📦](#enclosures 'PCB Enclosure')&nbsp; &mdash; enclosure, 80x40x20mm, translucent blue
+- [1591XXLBK](https://www.hammfg.com/files/parts/pdf/1591XXLBK.pdf) [📦](#enclosures 'PCB Enclosure')&nbsp; &mdash; enclosure, 86x56x36mm, black, brass inserts (lid), flame retardant
+- [1591XXLFLBK](https://www.hammfg.com/files/parts/pdf/1591XXLFLBK.pdf) [📦](#enclosures 'PCB Enclosure')&nbsp; &mdash; enclosure, 86x56x36mm, black, mounting flanges, brass inserts (lid), flame retardant
+- [1591XXLFLGY](https://www.hammfg.com/files/parts/pdf/1591XXLFLGY.pdf) [📦](#enclosures 'PCB Enclosure')&nbsp; &mdash; enclosure, 86x56x36mm, gray, mounting flanges, brass inserts (lid), flame retardant
+- [1591XXLGY](https://www.hammfg.com/files/parts/pdf/1591XXLGY.pdf) [📦](#enclosures 'PCB Enclosure')&nbsp; &mdash; enclosure, 86x56x36mm, gray, brass inserts (lid), flame retardant
+- [1591XXLSBK](https://www.hammfg.com/files/parts/pdf/1591XXLSBK.pdf) [📦](#enclosures 'PCB Enclosure')&nbsp; &mdash; enclosure, 86x56x36mm, black, self-tapping screws (lid)
+- [1591XXLSFLBK](https://www.hammfg.com/files/parts/pdf/1591XXLSFLBK.pdf) [📦](#enclosures 'PCB Enclosure')&nbsp; &mdash; enclosure, 86x56x36mm, black, mounting flanges, self-tapping screws (lid)
+- [1591XXLTBU](https://www.hammfg.com/files/parts/pdf/1591XXLTBU.pdf) [📦](#enclosures 'PCB Enclosure')&nbsp; &mdash; enclosure, 86x56x36mm, translucent blue, brass inserts (lid)
 
 ### NXP
 
-- [74LV1T34-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) 🚗&nbsp; &mdash; single supply translating buffer, automotive qualified
-  - [74LV1T34GV-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) &mdash; SC-74A &mdash; [NXP SOT-753](https://github.com/kicad-unofficial/footprints#user-content-nxp_sot-753)
-  - [74LV1T34GW-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) &mdash; TSSOP-5 &mdash; [NXP SOT-353-1](https://github.com/kicad-unofficial/footprints#user-content-nxp_sot-353-1)
+- [74LV1T34-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) [🚗 ](#automotive-qualified-parts 'Automotive Qualified Part')&nbsp; &mdash; single supply translating buffer, automotive qualified
+  - [74LV1T34GV-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) &mdash; SC-74A [👣&nbsp;](https://github.com/kicad-unofficial/footprints#user-content-nxp_sot-753 'Footprint: NXP SOT-753')
+  - [74LV1T34GW-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) &mdash; TSSOP-5 [👣&nbsp;](https://github.com/kicad-unofficial/footprints#user-content-nxp_sot-353-1 'Footprint: NXP SOT-353-1')
 
 ### onsemi
 
-- [SZESD7104MUTAG](https://www.onsemi.com/pdf/datasheet/esd7104-d.pdf) 🚗&nbsp; &mdash; ESD7104, low capacitance ESD protection diode for high speed data line, 5Vrwm, automotive qualified, UDFN10 &mdash; [onsemi 517BB−01](https://github.com/kicad-unofficial/footprints#user-content-onsemi_517bb−01)
+- [SZESD7104MUTAG](https://www.onsemi.com/pdf/datasheet/esd7104-d.pdf) [🚗 ](#automotive-qualified-parts 'Automotive Qualified Part')&nbsp; &mdash; ESD7104, low capacitance ESD protection diode for high speed data line, 5Vrwm, automotive qualified, UDFN10 [👣&nbsp;](https://github.com/kicad-unofficial/footprints#user-content-onsemi_517bb−01 'Footprint: onsemi 517BB−01')
 
 ## Notes for Symbol Creators
 
