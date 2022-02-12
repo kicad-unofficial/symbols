@@ -86,8 +86,8 @@ library contains symbols for a specific vendor or manufacturer.
 ### onsemi
 
 - [ESD7104](https://www.onsemi.com/pdf/datasheet/esd7104-d.pdf) &mdash; low capacitance ESD protection diode for high speed data line • 5Vrwm
-  - [ESD7104MUTAG](https://www.onsemi.com/pdf/datasheet/esd7104-d.pdf) &mdash; UDFN10 [👣](https://github.com/kicad-unofficial/footprints#user-content-onsemi_517bb−01 'Footprint: onsemi 517BB−01')
-  - [SZESD7104MUTAG](https://www.onsemi.com/pdf/datasheet/esd7104-d.pdf) [🚗](#automotive-qualified-parts 'Automotive Qualified Part') &mdash; UDFN10 [👣](https://github.com/kicad-unofficial/footprints#user-content-onsemi_517bb−01 'Footprint: onsemi 517BB−01')
+  - [ESD7104MUTAG](https://www.onsemi.com/pdf/datasheet/esd7104-d.pdf) &mdash; UDFN10 [👣](https://github.com/kicad-unofficial/footprints#user-content-onsemi_517bb-01 'Footprint: onsemi 517BB-01')
+  - [SZESD7104MUTAG](https://www.onsemi.com/pdf/datasheet/esd7104-d.pdf) [🚗](#automotive-qualified-parts 'Automotive Qualified Part') &mdash; UDFN10 [👣](https://github.com/kicad-unofficial/footprints#user-content-onsemi_517bb-01 'Footprint: onsemi 517BB-01')
 
 ## Notes for Symbol Creators
 
