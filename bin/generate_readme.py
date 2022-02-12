@@ -73,9 +73,9 @@ for file in files:
         url = sym.get_property("Datasheet").value
 
         icon = ""
-        if "automotive" in desc:
+        if "automotive" in desc.lower():
             icon = "🚗&nbsp;"
-        if "enclosure" in desc:
+        if "enclosure" in desc.lower():
             icon += "📦&nbsp;"
 
         print(f"- [{sym.name}]({url}) {icon} &mdash; {desc}")
