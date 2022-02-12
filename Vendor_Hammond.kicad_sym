@@ -15,7 +15,7 @@
     (property "ki_keywords" "abs plastic miniature hand held enclosure" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "1551 Series Enclosure, 80x40x20mm, Black" (id 5) (at 0 0 0)
+    (property "ki_description" "enclosure, 80x40x20mm, black" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "1551KBK_0_0"
@@ -44,7 +44,7 @@
     (property "ki_keywords" "abs plastic miniature hand held enclosure" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "1551 Series Enclosure, 80x40x20mm, Black, Mounting Flanges" (id 5) (at 0 0 0)
+    (property "ki_description" "enclosure, 80x40x20mm, black, mounting flanges" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "1551KFLBK_0_0"
@@ -73,7 +73,7 @@
     (property "ki_keywords" "abs plastic miniature hand held enclosure grey" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "1551 Series Enclosure, 80x40x20mm, Gray, Mounting Flanges" (id 5) (at 0 0 0)
+    (property "ki_description" "enclosure, 80x40x20mm, gray, mounting flanges" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "1551KFLGY_0_0"
@@ -102,7 +102,7 @@
     (property "ki_keywords" "abs plastic miniature hand held enclosure grey" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "1551 Series Enclosure, 80x40x20mm, Gray" (id 5) (at 0 0 0)
+    (property "ki_description" "enclosure, 80x40x20mm, Gray" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "1551KGY_0_0"
@@ -131,7 +131,7 @@
     (property "ki_keywords" "abs plastic miniature hand held enclosure" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "1551 Series Enclosure, 80x40x20mm, Black, Key Ring" (id 5) (at 0 0 0)
+    (property "ki_description" "enclosure, 80x40x20mm, black, key ring" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "1551KRBK_0_0"
@@ -160,7 +160,7 @@
     (property "ki_keywords" "abs plastic miniature hand held enclosure grey" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "1551 Series Enclosure, 80x40x20mm, Gray, Key Ring" (id 5) (at 0 0 0)
+    (property "ki_description" "enclosure, 80x40x20mm, gray, key ring" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "1551KRGY_0_0"
@@ -189,7 +189,7 @@
     (property "ki_keywords" "abs plastic miniature hand held enclosure" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "1551 Series Enclosure, 80x40x20mm, Translucent Blue" (id 5) (at 0 0 0)
+    (property "ki_description" "enclosure, 80x40x20mm, translucent blue" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "1551KTBU_0_0"
@@ -218,7 +218,7 @@
     (property "ki_keywords" "abs plastic multi-purpose enclosure standoff UL94 V-0" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "1591XX Series Enclosure, 86x56x36mm, Black, Brass Screw Inserts (Lid), Flame Retardant" (id 5) (at 0 0 0)
+    (property "ki_description" "enclosure, 86x56x36mm, black, brass screw inserts (lid), flame retardant" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "1591XXLBK_0_0"
@@ -247,7 +247,7 @@
     (property "ki_keywords" "abs plastic multi-purpose enclosure standoff UL94 V-0" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "1591XX Series Enclosure, 86x56x36mm, Black, Mounting Flanges, Brass Screw Inserts (Lid), Flame Retardant" (id 5) (at 0 0 0)
+    (property "ki_description" "enclosure, 86x56x36mm, black, mounting flanges, brass screw inserts (lid), flame retardant" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "1591XXLFLBK_0_0"
@@ -276,7 +276,7 @@
     (property "ki_keywords" "abs plastic multi-purpose enclosure standoff UL94 V-0 grey" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "1591XX Series Enclosure, 86x56x36mm, Gray, Mounting Flanges, Brass Screw Inserts (Lid), Flame Retardant" (id 5) (at 0 0 0)
+    (property "ki_description" "enclosure, 86x56x36mm, gray, mounting flanges, brass screw inserts (lid), flame retardant" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "1591XXLFLGY_0_0"
@@ -305,7 +305,7 @@
     (property "ki_keywords" "abs plastic multi-purpose enclosure standoff UL94 V-0 grey" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "1591XX Series Enclosure, 86x56x36mm, Gray, Brass Screw Inserts (Lid), Flame Retardant" (id 5) (at 0 0 0)
+    (property "ki_description" "enclosure, 86x56x36mm, gray, brass screw inserts (lid), flame retardant" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "1591XXLGY_0_0"
@@ -334,7 +334,7 @@
     (property "ki_keywords" "abs plastic multi-purpose enclosure standoff" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "1591XX Series Enclosure, 86x56x36mm, Black, Self-Tapping Screws (Lid)" (id 5) (at 0 0 0)
+    (property "ki_description" "enclosure, 86x56x36mm, black, self-tapping screws (lid)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "1591XXLSBK_0_0"
@@ -363,7 +363,7 @@
     (property "ki_keywords" "abs plastic multi-purpose enclosure standoff" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "1591XX Series Enclosure, 86x56x36mm, Black, Mounting Flanges, Self-Tapping Screws (Lid)" (id 5) (at 0 0 0)
+    (property "ki_description" "enclosure, 86x56x36mm, black, mounting flanges, self-tapping screws (lid)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "1591XXLSFLBK_0_0"
@@ -392,7 +392,7 @@
     (property "ki_keywords" "abs plastic multi-purpose enclosure standoff" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "1591XX Series Enclosure, 86x56x36mm, Translucent Blue, Brass Screw Inserts (Lid)" (id 5) (at 0 0 0)
+    (property "ki_description" "enclosure, 86x56x36mm, translucent blue, brass screw inserts (lid)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "1591XXLTBU_0_0"

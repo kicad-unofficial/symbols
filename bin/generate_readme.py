@@ -8,25 +8,46 @@ files = sorted(sys.argv[1:], key=str.casefold)
 
 print("""# Symbol Libraries
 
-This is an unofficial collection of symbol libraries for KiCad 6. It depends on
-the footprint libraries in [the footprints
-repository](https://github.com/kicad-unofficial/footprints).
+This is an unofficial collection of symbol libraries for KiCad 6.
 
-Each library contains symbols for a specific vendor or manufacturer. All symbols
-are "fully specified", meaning that they uniquely identify a specific part with
-a specific footprint.
+The footprints used by these symbols are in the [footprints] repository.
 
-They are designed to require no further specification once placed into the
-schematic. Where necessary an [`Octopart Query` field](https://github.com/kicad-unofficial/bom/tree/main/octopart#readme) is
-included such that the symbol can be used with the [Octopart BOM generator](https://github.com/kicad-unofficial/bom/tree/main/octopart).
+[footprints]: https://github.com/kicad-unofficial/footprints
+
+## Conventions
+
+These symbols are intended to require no further specification once placed into
+the schematic.
+
+To that end, parts are only included if their symbol can be "fully-specified",
+meaning that it uniquely identifies a specific part that can be ordered from a
+supplier. Generic (non-fully-specified) symbols _are_ also provided for parts
+that are available in multiple footprints.
+
+Where appropriate, an `Octopart Query` field is added for use with the [Octopart
+BOM generator].
+
+[octopart bom generator]:
+https://github.com/kicad-unofficial/bom/tree/main/octopart#readme
+
+### Automotive Qualified Parts
+
+Automotive qualified parts (AEC-Q100, etc) include the text `automotive
+qualified` in their description and are marked with a 🚗&nbsp; (car) icon in the
+[symbol index](#symbol-index) below.
 
 ### Enclosure Symbols
 
-Perhaps unconventially, some of these symbols represent PCB enclosures. The
-footprint of these symbols defines the edge cuts layer and mounting holes for a
-PCB that is suitable for the enclosure.
+Some symbols represent PCB enclosures rather than parts to be placed on the PCB.
+They are marked with a 📦&nbsp; (package) icon in the [symbol index] below.
+
+The footprint of these symbols defines the edge cuts layer and mounting holes
+for the PCB.
 
 ## Symbol Index
+
+This is an index of the available libraries and the symbols they contain. Each
+library contains symbols for a specific vendor or manufacturer.
 """)
 
 for file in files:
@@ -35,22 +56,37 @@ for file in files:
     name, _ = splitext(base)
 
     print(f"### {name.removeprefix('Vendor_')}")
-    print()
-    print(f"These symbols are contained in the [`{name}`]({base}) library.")
+    # print()
+    # print(f"These symbols are contained in the [`{name}`]({base}) library.")
     print()
 
     for sym in lib.symbols:
+        if sym.extends:
+            continue
+
         desc = sym.get_property("ki_description").value
         url = sym.get_property("Datasheet").value
 
-        if url:
-            print(f"- [{sym.name}]({url}): {desc}", )
-        else:
-            print(f"- {sym.name}: {desc}", )
+        icon = ""
+        if "automotive" in desc:
+            icon = "🚗&nbsp;"
+        if "enclosure" in desc:
+            icon += "📦&nbsp;"
+
+        print(f"- [{sym.name}]({url}) {icon} &mdash; {desc}")
+
+        for child in lib.symbols:
+            if child.extends == sym.name:
+                childDesc = child.get_property("ki_description").value
+                childDesc = childDesc.replace(sym.name,  "")
+                childDesc = childDesc.replace(desc,  "")
+                childDesc = childDesc.removeprefix(sym.name).strip(", ")
+                childURL = child.get_property("Datasheet").value
+                print(f"  - [{child.name}]({childURL}) &mdash; {childDesc}")
 
     print()
 
-print("""## Conventions
+print("""## Notes for Symbol Creators
 
 - Name the component as the part number used for ordering, excluding packing alternatives.
 - Start the description with the "general" part number (usually the one used to identify the datasheet).
