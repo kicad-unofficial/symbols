@@ -71,7 +71,6 @@ def child_description(parent: KicadSymbol, child: KicadSymbol) -> str:
 
     c = c.replace(parent.name, "")
     c = c.replace(p, "")
-    c = c.removeprefix(parent.name)
     c = c.strip(",• ")
 
     return c
@@ -118,8 +117,8 @@ the [Octopart BOM generator]. An `Octopart Query` field is included where
 necessary.
 
 Generic symbols are also provided for parts that are available in more than one
-package, but no generic symbol is provided without accompanying fully-specified
-symbols.
+package (always alongside the fully-specified symbols), and in some other
+special cases.
 
 For more information about "atomic" parts, "fully-specified" symbols and
 "generic" symbols, please see the [KiCad Library Conventions].
