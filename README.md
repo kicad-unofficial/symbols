@@ -1,7 +1,36 @@
 # Symbol Libraries
 
-This is an unofficial collection of symbol libraries for KiCad 6. It depends on
-the footprint libraries in [the footprints repository](https://github.com/kicad-unofficial/footprints).
+This is an unofficial collection of symbol libraries for KiCad 6.
+It depends on the footprint libraries in [the footprints repository](https://github.com/kicad-unofficial/footprints).
+
+## Symbols
+
+### Hammond
+
+- [1551KBK](https://www.hammfg.com/files/parts/pdf/1551KBK.pdf): 1551 Series Enclosure, 80x40x20mm, Black
+- [1551KFLBK](https://www.hammfg.com/files/parts/pdf/1551KFLBK.pdf): 1551 Series Enclosure, 80x40x20mm, Black, Mounting Flanges
+- [1551KFLGY](https://www.hammfg.com/files/parts/pdf/1551KFLGY.pdf): 1551 Series Enclosure, 80x40x20mm, Gray, Mounting Flanges
+- [1551KGY](https://www.hammfg.com/files/parts/pdf/1551KGY.pdf): 1551 Series Enclosure, 80x40x20mm, Gray
+- [1551KRBK](https://www.hammfg.com/files/parts/pdf/1551KRBK.pdf): 1551 Series Enclosure, 80x40x20mm, Black, Key Ring
+- [1551KRGY](https://www.hammfg.com/files/parts/pdf/1551KRGY.pdf): 1551 Series Enclosure, 80x40x20mm, Gray, Key Ring
+- [1551KTBU](https://www.hammfg.com/files/parts/pdf/1551KTBU.pdf): 1551 Series Enclosure, 80x40x20mm, Translucent Blue
+- [1591XXLBK](https://www.hammfg.com/files/parts/pdf/1591XXLBK.pdf): 1591XX Series Enclosure, 86x56x36mm, Black, Brass Screw Inserts (Lid), Flame Retardant
+- [1591XXLFLBK](https://www.hammfg.com/files/parts/pdf/1591XXLFLBK.pdf): 1591XX Series Enclosure, 86x56x36mm, Black, Mounting Flanges, Brass Screw Inserts (Lid), Flame Retardant
+- [1591XXLFLGY](https://www.hammfg.com/files/parts/pdf/1591XXLFLGY.pdf): 1591XX Series Enclosure, 86x56x36mm, Gray, Mounting Flanges, Brass Screw Inserts (Lid), Flame Retardant
+- [1591XXLGY](https://www.hammfg.com/files/parts/pdf/1591XXLGY.pdf): 1591XX Series Enclosure, 86x56x36mm, Gray, Brass Screw Inserts (Lid), Flame Retardant
+- [1591XXLSBK](https://www.hammfg.com/files/parts/pdf/1591XXLSBK.pdf): 1591XX Series Enclosure, 86x56x36mm, Black, Self-Tapping Screws (Lid)
+- [1591XXLSFLBK](https://www.hammfg.com/files/parts/pdf/1591XXLSFLBK.pdf): 1591XX Series Enclosure, 86x56x36mm, Black, Mounting Flanges, Self-Tapping Screws (Lid)
+- [1591XXLTBU](https://www.hammfg.com/files/parts/pdf/1591XXLTBU.pdf): 1591XX Series Enclosure, 86x56x36mm, Translucent Blue, Brass Screw Inserts (Lid)
+
+### NXP
+
+- [74LV1T34-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf): single supply translating buffer, automotive qualified
+- [74LV1T34GV-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf): 74LV1T34-Q100, single supply translating buffer, automotive qualified, SC-74A
+- [74LV1T34GW-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf): 74LV1T34-Q100, single supply translating buffer, automotive qualified, TSSOP-5
+
+### onsemi
+
+- [SZESD7104MUTAG](https://www.onsemi.com/pdf/datasheet/esd7104-d.pdf): ESD7104, low capacitance ESD protection diode for high speed data line, 5Vrwm, automotive qualified, UDFN10
 
 ## Conventions
 
