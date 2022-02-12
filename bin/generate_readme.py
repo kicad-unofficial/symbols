@@ -51,10 +51,11 @@ def description(sym: KicadSymbol) -> str:
     desc = desc.replace("enclosure", "")
     desc = desc.replace("flame retardant", "")
 
-    def rep(m: re.Match):
-        return m.group(0).replace("x", "×")
-
-    desc = re.sub("([0-9]+x)+[0-9]+mm", rep, desc)
+    desc = re.sub(
+        "([0-9]+x)+[0-9]+mm",
+        lambda m: m.group(0).replace("x", "×"),
+        desc
+    )
 
     while ", , " in desc:
         desc = desc.replace(", , ", ", ")
