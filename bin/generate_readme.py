@@ -52,7 +52,7 @@ def description(sym: KicadSymbol) -> str:
     desc = desc.replace("flame retardant", "")
 
     desc = re.sub(
-        "([0-9]+x)+[0-9]+mm",
+        "([0-9\.]+x)+[0-9\.]+mm",
         lambda m: m.group(0).replace("x", "×"),
         desc
     )
