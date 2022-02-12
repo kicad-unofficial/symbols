@@ -1,9 +1,22 @@
 #!/usr/bin/env python3
-from os.path import splitext, basename
+import functools
+import os
 from utils.common.kicad_sym import KicadLibrary
 import sys
 
 files = sorted(sys.argv[1:], key=str.casefold)
+
+
+def symbol_cmp(a, b):
+    a = a.name.lower()
+    b = b.name.lower()
+
+    if a.startswith(b):
+        return +1
+    if b.startswith(a):
+        return -1
+
+    return (a > b) - (a < b)
 
 
 def footprint_markdown(sym):
@@ -85,17 +98,20 @@ library contains symbols for a specific vendor or manufacturer.
 """)
 
 for file in files:
-    name, _ = splitext(basename(file).removeprefix('Vendor_'))
+    name, _ = os.path.splitext(os.path.basename(file).removeprefix('Vendor_'))
     print(f"- [{name}](#{name.lower()})")
 
 print()
 
 for file in files:
-    name, _ = splitext(basename(file).removeprefix('Vendor_'))
+    name, _ = os.path.splitext(os.path.basename(file).removeprefix('Vendor_'))
     lib = KicadLibrary.from_file(file)
 
     print(f"### {name}")
     print()
+
+    symbols = lib.symbols
+    symbols.sort(key=functools.cmp_to_key(symbol_cmp))
 
     for sym in lib.symbols:
         if sym.extends:
