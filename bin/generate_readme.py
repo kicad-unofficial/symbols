@@ -57,6 +57,12 @@ def description(sym: KicadSymbol) -> str:
         desc
     )
 
+    desc = re.sub(
+        "([0-9\.]+V)([a-z]+)",
+        lambda m: f"{m.group(1)}<sub>{m.group(2)}</sub>",
+        desc
+    )
+
     while ", , " in desc:
         desc = desc.replace(", , ", ", ")
 
@@ -93,9 +99,19 @@ def is_enclosure(sym: KicadSymbol) -> bool:
     return "enclosure" in kw.value.lower().split(" ")
 
 
-def is_flame_retardant(sum: KicadSymbol) -> bool:
+def is_flame_retardant(sym: KicadSymbol) -> bool:
     desc = sym.get_property("ki_description")
     return "flame retardant" in desc.value.lower()
+
+
+def style_name(sym: KicadSymbol) -> bool:
+    name = sym.name
+    name = name.replace("_Counter_Clockwise",
+                        " <sub>CCW</sub>")
+    name = name.replace("_Odd_Even",
+                        " <sub>O/E</sub>")
+    name = name.replace("_", " ")
+    return name
 
 
 print('''
@@ -168,7 +184,7 @@ for file in files:
         url = sym.get_property("Datasheet").value
         fp = footprint_markdown(sym)
 
-        item = f"- [{sym.name}]({url}) "
+        item = f"- [{style_name(sym)}]({url}) "
 
         if is_automotive(sym):
             item += "[🚗](#automotive-qualified-parts 'Automotive Qualified Part') "
@@ -191,7 +207,7 @@ for file in files:
                 child_url = child.get_property("Datasheet").value
                 child_fp = footprint_markdown(child)
 
-                item = f"  - [{child.name}]({child_url}) "
+                item = f"  - [{style_name(child)}]({child_url}) "
 
                 if not is_automotive(sym) and is_automotive(child):
                     item += "[🚗](#automotive-qualified-parts 'Automotive Qualified Part') "

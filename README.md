@@ -51,14 +51,14 @@ library contains symbols for a specific vendor or manufacturer.
 
 ### Espressif
 
-- [ESP-PROG_JTAG_Counter_Clockwise](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; ESP-PROG JTAG header • counter-clockwise pinout
-- [ESP-PROG_JTAG_Odd_Even](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; ESP-PROG JTAG header • odd/even pinout
-  - [ESP-PROG_JTAG_TC2050-NL](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; TC2050-NL [👣](https://github.com/kicad-unofficial/footprints#user-content-tagconnect_tc2050-nl 'Footprint: TagConnect TC2050-NL')
-  - [ESP-PROG_JTAG_TC2050-NL+CLIP](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; TC2050-NL • clearance for TC2050-CLIP [👣](https://github.com/kicad-unofficial/footprints#user-content-tagconnect_tc2050-nl+clip 'Footprint: TagConnect TC2050-NL+CLIP')
-- [ESP-PROG_Program_Counter_Clockwise](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; ESP-PROG programming header • counter-clockwise pinout
-- [ESP-PROG_Program_Odd_Even](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; ESP-PROG programming header • odd/even pinout
-  - [ESP-PROG_Program_TC2030-NL](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; TC2030-NL [👣](https://github.com/kicad-unofficial/footprints#user-content-tagconnect_tc2030-nl 'Footprint: TagConnect TC2030-NL')
-  - [ESP-PROG_Program_TC2030-NL+CLIP](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; TC2030-NL • clearance for TC2030-CLIP [👣](https://github.com/kicad-unofficial/footprints#user-content-tagconnect_tc2030-nl+clip 'Footprint: TagConnect TC2030-NL+CLIP')
+- [ESP-PROG JTAG <sub>CCW</sub>](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; ESP-PROG JTAG header • counter-clockwise pinout
+- [ESP-PROG JTAG <sub>O/E</sub>](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; ESP-PROG JTAG header • odd/even pinout
+  - [ESP-PROG JTAG TC2050-NL](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; TC2050-NL [👣](https://github.com/kicad-unofficial/footprints#user-content-tagconnect_tc2050-nl 'Footprint: TagConnect TC2050-NL')
+  - [ESP-PROG JTAG TC2050-NL+CLIP](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; TC2050-NL • clearance for TC2050-CLIP [👣](https://github.com/kicad-unofficial/footprints#user-content-tagconnect_tc2050-nl+clip 'Footprint: TagConnect TC2050-NL+CLIP')
+- [ESP-PROG Program <sub>CCW</sub>](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; ESP-PROG programming header • counter-clockwise pinout
+- [ESP-PROG Program <sub>O/E</sub>](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; ESP-PROG programming header • odd/even pinout
+  - [ESP-PROG Program TC2030-NL](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; TC2030-NL [👣](https://github.com/kicad-unofficial/footprints#user-content-tagconnect_tc2030-nl 'Footprint: TagConnect TC2030-NL')
+  - [ESP-PROG Program TC2030-NL+CLIP](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; TC2030-NL • clearance for TC2030-CLIP [👣](https://github.com/kicad-unofficial/footprints#user-content-tagconnect_tc2030-nl+clip 'Footprint: TagConnect TC2030-NL+CLIP')
 
 ### Hammond
 
@@ -79,13 +79,13 @@ library contains symbols for a specific vendor or manufacturer.
 
 ### NXP
 
-- [74LV1T34-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) [🚗](#automotive-qualified-parts 'Automotive Qualified Part') &mdash; single supply translating buffer • 5Vmax
+- [74LV1T34-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) [🚗](#automotive-qualified-parts 'Automotive Qualified Part') &mdash; single supply translating buffer • 5V<sub>max</sub>
   - [74LV1T34GV-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) &mdash; SC-74A [👣](https://github.com/kicad-unofficial/footprints#user-content-nxp_sot753 'Footprint: NXP SOT753')
   - [74LV1T34GW-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) &mdash; TSSOP-5 [👣](https://github.com/kicad-unofficial/footprints#user-content-nxp_sot353-1 'Footprint: NXP SOT353-1')
 
 ### onsemi
 
-- [ESD7104](https://www.onsemi.com/pdf/datasheet/esd7104-d.pdf) &mdash; low capacitance ESD protection diode for high speed data line • 5Vrwm
+- [ESD7104](https://www.onsemi.com/pdf/datasheet/esd7104-d.pdf) &mdash; low capacitance ESD protection diode for high speed data line • 5V<sub>rwm</sub>
   - [ESD7104MUTAG](https://www.onsemi.com/pdf/datasheet/esd7104-d.pdf) &mdash; UDFN10 [👣](https://github.com/kicad-unofficial/footprints#user-content-onsemi_517bb-01 'Footprint: onsemi 517BB-01')
   - [SZESD7104MUTAG](https://www.onsemi.com/pdf/datasheet/esd7104-d.pdf) [🚗](#automotive-qualified-parts 'Automotive Qualified Part') &mdash; UDFN10 [👣](https://github.com/kicad-unofficial/footprints#user-content-onsemi_517bb-01 'Footprint: onsemi 517BB-01')
 
