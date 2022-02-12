@@ -45,7 +45,7 @@ print("""
 
 An unofficial collection of schematic symbols for KiCad 6.
 
-# Atomic Parts
+## Atomic Parts
 
 All parts are "atomic" &mdash; they have a "fully-specified" symbol and an
 associated footprint. The footprints are created directly from the
@@ -64,13 +64,13 @@ symbols.
 For more information about "atomic" parts, "fully-specified" symbols and
 "generic" symbols, please see the [KiCad Library Conventions].
 
-# Automotive Qualified Parts
+## Automotive Qualified Parts
 
 Automotive qualified parts (AEC-Q100, etc) include the text `automotive
 qualified` in their description and are marked with a 🚗&nbsp; (car icon) in the
 [symbol index] below.
 
-# Enclosures
+## Enclosures
 
 Some symbols represent PCB enclosures rather than parts to be placed on the PCB.
 They are marked with a 📦&nbsp; (package icon) in the [symbol index] below.
@@ -78,7 +78,7 @@ They are marked with a 📦&nbsp; (package icon) in the [symbol index] below.
 Enclosure footprints define the edge cuts layer (PCB shape) and mounting holes.
 
 
-# Symbol Index
+## Symbol Index
 
 This is an index of the available libraries and the symbols they contain. Each
 library contains symbols for a specific vendor or manufacturer.
