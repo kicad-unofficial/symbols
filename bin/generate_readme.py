@@ -43,11 +43,14 @@ def description(sym: KicadSymbol) -> str:
     desc = sym.get_property("ki_description").value
     desc = desc.replace("automotive qualified", "")
     desc = desc.replace("enclosure", "")
+    desc = desc.replace("flame retardant", "")
 
     while ", , " in desc:
         desc = desc.replace(", , ", ", ")
 
     desc = desc.strip(", ")
+    desc = desc.replace(", ", " • ")
+
     return desc
 
 
@@ -57,8 +60,8 @@ def child_description(parent: KicadSymbol, child: KicadSymbol) -> str:
 
     c = c.replace(parent.name, "")
     c = c.replace(p, "")
-    c = c.removeprefix(sym.name)
-    c = c.strip(", ")
+    c = c.removeprefix(parent.name)
+    c = c.strip(",• ")
 
     return c
 
@@ -77,6 +80,11 @@ def is_enclosure(sym: KicadSymbol) -> bool:
         return False
 
     return "enclosure" in kw.value.lower().split(" ")
+
+
+def is_flame_retardant(sum: KicadSymbol) -> bool:
+    desc = sym.get_property("ki_description")
+    return "flame retardant" in desc.value.lower()
 
 
 print('''
@@ -156,6 +164,9 @@ for file in files:
 
         if is_enclosure(sym):
             item += "[📦](#enclosures 'PCB Enclosure') "
+
+            if is_flame_retardant(sym):
+                item += "[🔥](#enclosures 'Flame Retardant') "
 
         item += f"&mdash; {description(sym)}"
 
