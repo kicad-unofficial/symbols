@@ -102,7 +102,7 @@
     (property "ki_keywords" "abs plastic miniature hand held enclosure grey" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "enclosure, 80x40x20mm, Gray" (id 5) (at 0 0 0)
+    (property "ki_description" "enclosure, 80x40x20mm, gray" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "1551KGY_0_0"

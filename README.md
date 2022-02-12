@@ -58,20 +58,20 @@ library contains symbols for a specific vendor or manufacturer.
 
 ### Hammond
 
-- [1551KBK](https://www.hammfg.com/files/parts/pdf/1551KBK.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; enclosure, 80x40x20mm, black
-- [1551KFLBK](https://www.hammfg.com/files/parts/pdf/1551KFLBK.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; enclosure, 80x40x20mm, black, mounting flanges
-- [1551KFLGY](https://www.hammfg.com/files/parts/pdf/1551KFLGY.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; enclosure, 80x40x20mm, gray, mounting flanges
-- [1551KGY](https://www.hammfg.com/files/parts/pdf/1551KGY.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; enclosure, 80x40x20mm, Gray
-- [1551KRBK](https://www.hammfg.com/files/parts/pdf/1551KRBK.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; enclosure, 80x40x20mm, black, key ring
-- [1551KRGY](https://www.hammfg.com/files/parts/pdf/1551KRGY.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; enclosure, 80x40x20mm, gray, key ring
-- [1551KTBU](https://www.hammfg.com/files/parts/pdf/1551KTBU.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; enclosure, 80x40x20mm, translucent blue
-- [1591XXLBK](https://www.hammfg.com/files/parts/pdf/1591XXLBK.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; enclosure, 86x56x36mm, black, brass inserts (lid), flame retardant
-- [1591XXLFLBK](https://www.hammfg.com/files/parts/pdf/1591XXLFLBK.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; enclosure, 86x56x36mm, black, mounting flanges, brass inserts (lid), flame retardant
-- [1591XXLFLGY](https://www.hammfg.com/files/parts/pdf/1591XXLFLGY.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; enclosure, 86x56x36mm, gray, mounting flanges, brass inserts (lid), flame retardant
-- [1591XXLGY](https://www.hammfg.com/files/parts/pdf/1591XXLGY.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; enclosure, 86x56x36mm, gray, brass inserts (lid), flame retardant
-- [1591XXLSBK](https://www.hammfg.com/files/parts/pdf/1591XXLSBK.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; enclosure, 86x56x36mm, black, self-tapping screws (lid)
-- [1591XXLSFLBK](https://www.hammfg.com/files/parts/pdf/1591XXLSFLBK.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; enclosure, 86x56x36mm, black, mounting flanges, self-tapping screws (lid)
-- [1591XXLTBU](https://www.hammfg.com/files/parts/pdf/1591XXLTBU.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; enclosure, 86x56x36mm, translucent blue, brass inserts (lid)
+- [1551KBK](https://www.hammfg.com/files/parts/pdf/1551KBK.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; 80x40x20mm, black
+- [1551KFLBK](https://www.hammfg.com/files/parts/pdf/1551KFLBK.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; 80x40x20mm, black, mounting flanges
+- [1551KFLGY](https://www.hammfg.com/files/parts/pdf/1551KFLGY.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; 80x40x20mm, gray, mounting flanges
+- [1551KGY](https://www.hammfg.com/files/parts/pdf/1551KGY.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; 80x40x20mm, gray
+- [1551KRBK](https://www.hammfg.com/files/parts/pdf/1551KRBK.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; 80x40x20mm, black, key ring
+- [1551KRGY](https://www.hammfg.com/files/parts/pdf/1551KRGY.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; 80x40x20mm, gray, key ring
+- [1551KTBU](https://www.hammfg.com/files/parts/pdf/1551KTBU.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; 80x40x20mm, translucent blue
+- [1591XXLBK](https://www.hammfg.com/files/parts/pdf/1591XXLBK.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; 86x56x36mm, black, brass inserts (lid), flame retardant
+- [1591XXLFLBK](https://www.hammfg.com/files/parts/pdf/1591XXLFLBK.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; 86x56x36mm, black, mounting flanges, brass inserts (lid), flame retardant
+- [1591XXLFLGY](https://www.hammfg.com/files/parts/pdf/1591XXLFLGY.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; 86x56x36mm, gray, mounting flanges, brass inserts (lid), flame retardant
+- [1591XXLGY](https://www.hammfg.com/files/parts/pdf/1591XXLGY.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; 86x56x36mm, gray, brass inserts (lid), flame retardant
+- [1591XXLSBK](https://www.hammfg.com/files/parts/pdf/1591XXLSBK.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; 86x56x36mm, black, self-tapping screws (lid)
+- [1591XXLSFLBK](https://www.hammfg.com/files/parts/pdf/1591XXLSFLBK.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; 86x56x36mm, black, mounting flanges, self-tapping screws (lid)
+- [1591XXLTBU](https://www.hammfg.com/files/parts/pdf/1591XXLTBU.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; 86x56x36mm, translucent blue, brass inserts (lid)
 
 ### NXP
 

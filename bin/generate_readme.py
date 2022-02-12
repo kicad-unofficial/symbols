@@ -42,6 +42,7 @@ def footprint_markdown(sym: KicadSymbol) -> str:
 def description(sym: KicadSymbol) -> str:
     desc = sym.get_property("ki_description").value
     desc = desc.replace("automotive qualified", "")
+    desc = desc.replace("enclosure", "")
 
     while ", , " in desc:
         desc = desc.replace(", , ", ", ")
