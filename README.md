@@ -1,40 +1,39 @@
 # Symbol Libraries
 
-This is an unofficial collection of symbol libraries for KiCad 6.
+**An unofficial collection of schematic symbols for KiCad 6.**
 
-The footprints used by these symbols are in the [footprints] repository.
+## Atomic Parts
 
-[footprints]: https://github.com/kicad-unofficial/footprints
+All parts are "atomic" &mdash; they have a "fully-specified" symbol and an
+associated footprint. The footprints are created directly from the
+manufacturer's specifications and are located in the
+[kicad-unofficial/footprints] repository.
 
-## Conventions
+Because the symbols are fully-specified, they each represent a specific part
+that can be ordered from a supplier. Furthermore, they work out-of-the-box with
+the [Octopart BOM generator]. An `Octopart Query` field is included where
+necessary.
 
-These symbols are intended to require no further specification once placed into
-the schematic.
+Generic symbols are also provided for parts that are available in more than one
+package, but no generic symbol is provided without accompanying fully-specified
+symbols.
 
-Parts are only included if their symbol can be "fully-specified". This means
-each symbol uniquely identifies a specific part that can be ordered from a
-supplier. Generic (non-fully-specified) symbols are also provided for parts that
-are available in multiple footprints.
+For more information about "atomic" parts, "fully-specified" symbols and
+"generic" symbols, please see the [KiCad Library Conventions].
 
-Where appropriate, an `Octopart Query` field is added for use with the [Octopart
-BOM generator].
-
-[octopart bom generator]:
-https://github.com/kicad-unofficial/bom/tree/main/octopart#readme
-
-### Automotive Qualified Parts
+## Automotive Qualified Parts
 
 Automotive qualified parts (AEC-Q100, etc) include the text `automotive
-qualified` in their description and are marked with a 🚗&nbsp; (car) icon in the
-[symbol index](#symbol-index) below.
+qualified` in their description and are marked with a 🚗&nbsp; (car icon) in the
+[symbol index] below.
 
-### Enclosure Symbols
+## Enclosures
 
 Some symbols represent PCB enclosures rather than parts to be placed on the PCB.
-They are marked with a 📦&nbsp; (package) icon in the [symbol index] below.
+They are marked with a 📦&nbsp; (package icon) in the [symbol index] below.
 
-The footprint of these symbols defines the edge cuts layer and mounting holes
-for the PCB.
+Enclosure footprints define the edge cuts layer (PCB shape) and mounting holes.
+
 
 ## Symbol Index
 
@@ -83,4 +82,13 @@ library contains symbols for a specific vendor or manufacturer.
 - For automotive qualified parts:
   - Include `automotive` and `aec` keywords
   - Include `automotive qualified` in the description
+
+[kicad library conventions]: https://klc.kicad.org/general/g2/g2.1/
+
+[octopart bom generator]:
+https://github.com/kicad-unofficial/bom/tree/main/octopart#readme
+
+[kicad-unofficial/footprints]: https://github.com/kicad-unofficial/footprints
+
+[symbol index]: #symbol-index
 
