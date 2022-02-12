@@ -8,19 +8,31 @@ files = sorted(sys.argv[1:], key=str.casefold)
 
 print("""# Symbol Libraries
 
-This is an unofficial collection of symbol libraries for KiCad 6.
-It depends on the footprint libraries in [the footprints repository](https://github.com/kicad-unofficial/footprints).
+This is an unofficial collection of symbol libraries for KiCad 6. It depends on
+the footprint libraries in [the footprints
+repository](https://github.com/kicad-unofficial/footprints).
 
 ## Symbols
-""")
 
+Symbols are organized into libraries by manufacturer/vendor. All symbols are
+"fully specified", meaning that they uniquely identify a specific part with a
+specific footprint.
+
+### Enclosure Symbols
+
+Perhaps unconventially, some of these symbols represent PCB enclosures. The
+footprint of these symbols defines the edge cuts layer and mounting holes for a
+PCB that is suitable for the enclosure.
+""")
 
 for file in files:
     lib = KicadLibrary.from_file(file)
-    name, _ = splitext(basename(file))
-    name = name.removeprefix("Vendor_")
+    base = basename(file)
+    name, _ = splitext(base)
 
-    print(f"### {name}")
+    print(f"### {name.removeprefix('Vendor_')}")
+    print()
+    print(f"These symbols are contained in the [`{name}`]({base}) library.")
     print()
 
     for sym in lib.symbols:
