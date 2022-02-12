@@ -78,9 +78,10 @@ For more information about "atomic" parts, "fully-specified" symbols and
 
 ## Automotive Qualified Parts
 
-Automotive qualified parts (AEC-Q100, etc) include the text `automotive
-qualified` in their description and are marked with a 🚗 (car icon) in the
-[symbol index] below.
+Automotive qualified parts (AEC-Q100, etc) are marked with a 🚗 (car icon) in
+the [symbol index] below.
+
+The keyword `automotive` can be used to find these symbols within KiCad.
 
 ## Enclosures
 
@@ -123,7 +124,9 @@ for file in files:
         item = f"- [{sym.name}]({url}) "
 
         if "automotive" in desc.lower():
+            desc = desc.replace(", automotive qualified", "")
             item += "[🚗](#automotive-qualified-parts 'Automotive Qualified Part')"
+
         if "enclosure" in desc.lower():
             item += "[📦](#enclosures 'PCB Enclosure')"
 

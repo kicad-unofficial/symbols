@@ -26,9 +26,10 @@ For more information about "atomic" parts, "fully-specified" symbols and
 
 ## Automotive Qualified Parts
 
-Automotive qualified parts (AEC-Q100, etc) include the text `automotive
-qualified` in their description and are marked with a 🚗 (car icon) in the
-[symbol index] below.
+Automotive qualified parts (AEC-Q100, etc) are marked with a 🚗 (car icon) in
+the [symbol index] below.
+
+The keyword `automotive` can be used to find these symbols within KiCad.
 
 ## Enclosures
 
@@ -74,13 +75,13 @@ library contains symbols for a specific vendor or manufacturer.
 
 ### NXP
 
-- [74LV1T34-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) [🚗](#automotive-qualified-parts 'Automotive Qualified Part') &mdash; single supply translating buffer, automotive qualified
+- [74LV1T34-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) [🚗](#automotive-qualified-parts 'Automotive Qualified Part') &mdash; single supply translating buffer
   - [74LV1T34GV-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) &mdash; SC-74A [👣](https://github.com/kicad-unofficial/footprints#user-content-nxp_sot-753 'Footprint: NXP SOT-753')
   - [74LV1T34GW-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) &mdash; TSSOP-5 [👣](https://github.com/kicad-unofficial/footprints#user-content-nxp_sot-353-1 'Footprint: NXP SOT-353-1')
 
 ### onsemi
 
-- [SZESD7104MUTAG](https://www.onsemi.com/pdf/datasheet/esd7104-d.pdf) [🚗](#automotive-qualified-parts 'Automotive Qualified Part') &mdash; ESD7104, low capacitance ESD protection diode for high speed data line, 5Vrwm, automotive qualified, UDFN10 [👣](https://github.com/kicad-unofficial/footprints#user-content-onsemi_517bb−01 'Footprint: onsemi 517BB−01')
+- [SZESD7104MUTAG](https://www.onsemi.com/pdf/datasheet/esd7104-d.pdf) [🚗](#automotive-qualified-parts 'Automotive Qualified Part') &mdash; ESD7104, low capacitance ESD protection diode for high speed data line, 5Vrwm, UDFN10 [👣](https://github.com/kicad-unofficial/footprints#user-content-onsemi_517bb−01 'Footprint: onsemi 517BB−01')
 
 ## Notes for Symbol Creators
 
