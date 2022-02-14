@@ -59,6 +59,7 @@ library contains symbols for a specific vendor or manufacturer.
 - [ESP-PROG Program <sub>O/E</sub>](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; ESP-PROG programming header • odd/even pinout
   - [ESP-PROG Program TC2030-IDC-NL](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; use TC2030-IDC-NL cable [👣](https://github.com/kicad-unofficial/footprints#user-content-tagconnect_tc2030-nl 'Footprint: TagConnect TC2030-NL')
   - [ESP-PROG Program TC2030-IDC-NL+CLIP](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html) &mdash; use TC2030-IDC-NL cable and clip [👣](https://github.com/kicad-unofficial/footprints#user-content-tagconnect_tc2030-nl+clip 'Footprint: TagConnect TC2030-NL+CLIP')
+- [ESP32-WROVER](https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf) &mdash; module • ESP32-D0WD-V3 dual core • 240MHz • 802.11b/g/n • bluetooth/BLE • 3.0-3.6V
 
 ### Hammond
 
