@@ -63,6 +63,9 @@ library contains symbols for a specific vendor or manufacturer.
   - [ESP32-WROVER-E-N16R8](https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf) &mdash; PCB antenna • 16MB flash • 8MB PSRAM
   - [ESP32-WROVER-E-N4R8](https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf) &mdash; PCB antenna • 4MB flash • 8MB PSRAM
   - [ESP32-WROVER-E-N8R8](https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf) &mdash; PCB antenna • 8MB flash • 8MB PSRAM
+  - [ESP32-WROVER-IE-N16R8](https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf) &mdash; IPEX connector • 16MB flash • 8MB PSRAM
+  - [ESP32-WROVER-IE-N4R8](https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf) &mdash; IPEX connector • 4MB flash • 8MB PSRAM
+  - [ESP32-WROVER-IE-N8R8](https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf) &mdash; IPEX connector • 8MB flash • 8MB PSRAM
 
 ### Hammond
 
