@@ -46,6 +46,7 @@ library contains symbols for a specific vendor or manufacturer.
 
 - [Espressif](#espressif)
 - [Hammond](#hammond)
+- [Microchip](#microchip)
 - [NXP](#nxp)
 - [onsemi](#onsemi)
 
@@ -83,6 +84,15 @@ library contains symbols for a specific vendor or manufacturer.
 - [1591XXLGY](https://www.hammfg.com/files/parts/pdf/1591XXLGY.pdf) [📦](#enclosures 'PCB Enclosure') [🔥](#enclosures 'Flame Retardant') &mdash; 86×56×36mm • abs • gray • brass lid screw inserts
 - [1591XXLFLGY](https://www.hammfg.com/files/parts/pdf/1591XXLFLGY.pdf) [📦](#enclosures 'PCB Enclosure') [🔥](#enclosures 'Flame Retardant') &mdash; 86×56×36mm • abs • gray • brass lid screw inserts • mounting flanges
 - [1591XXLTBU](https://www.hammfg.com/files/parts/pdf/1591XXLTBU.pdf) [📦](#enclosures 'PCB Enclosure') &mdash; 86×56×36mm • abs • translucent blue • brass lid screw inserts
+
+### Microchip
+
+- [MCP6N11](https://ww1.microchip.com/downloads/en/DeviceDoc/25073A.pdf) &mdash; instrumentation amplifier • singly supply • rail-to-rail
+  - [MCP6N11[T]-001E/MNY](https://ww1.microchip.com/downloads/en/DeviceDoc/25073A.pdf) &mdash; 1V/V min. gain • TDFN-8 [👣](https://github.com/kicad-unofficial/footprints#user-content-microchip_tdfn-8-2x3-mny 'Footprint: Microchip TDFN-8-2x3-MNY')
+  - [MCP6N11[T]-002E/MNY](https://ww1.microchip.com/downloads/en/DeviceDoc/25073A.pdf) &mdash; 2V/V min. gain • TDFN-8 [👣](https://github.com/kicad-unofficial/footprints#user-content-microchip_tdfn-8-2x3-mny 'Footprint: Microchip TDFN-8-2x3-MNY')
+  - [MCP6N11[T]-005E/MNY](https://ww1.microchip.com/downloads/en/DeviceDoc/25073A.pdf) &mdash; 5V/V min. gain • TDFN-8 [👣](https://github.com/kicad-unofficial/footprints#user-content-microchip_tdfn-8-2x3-mny 'Footprint: Microchip TDFN-8-2x3-MNY')
+  - [MCP6N11[T]-010E/MNY](https://ww1.microchip.com/downloads/en/DeviceDoc/25073A.pdf) &mdash; 10V/V min. gain • TDFN-8 [👣](https://github.com/kicad-unofficial/footprints#user-content-microchip_tdfn-8-2x3-mny 'Footprint: Microchip TDFN-8-2x3-MNY')
+  - [MCP6N11[T]-100E/MNY](https://ww1.microchip.com/downloads/en/DeviceDoc/25073A.pdf) &mdash; 100V/V min. gain • TDFN-8 [👣](https://github.com/kicad-unofficial/footprints#user-content-microchip_tdfn-8-2x3-mny 'Footprint: Microchip TDFN-8-2x3-MNY')
 
 ### NXP
 

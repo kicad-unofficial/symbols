@@ -106,6 +106,7 @@ def is_flame_retardant(sym: KicadSymbol) -> bool:
 
 def style_name(sym: KicadSymbol) -> bool:
     name = sym.name
+    name = name.replace("{slash}", "/")
     name = name.replace("_Counter_Clockwise",
                         " <sub>CCW</sub>")
     name = name.replace("_Odd_Even",
