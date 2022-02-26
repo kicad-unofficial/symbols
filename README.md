@@ -47,7 +47,7 @@ library contains symbols for a specific vendor or manufacturer.
 - [Espressif](#espressif)
 - [Hammond](#hammond)
 - [Microchip](#microchip)
-- [NXP](#nxp)
+- [Nexperia](#nexperia)
 - [onsemi](#onsemi)
 
 ### Espressif
@@ -94,11 +94,11 @@ library contains symbols for a specific vendor or manufacturer.
   - [MCP6N11[T]-010E/MNY](https://ww1.microchip.com/downloads/en/DeviceDoc/25073A.pdf) &mdash; 10V/V min. gain • TDFN-8 [👣](https://github.com/kicad-unofficial/footprints#user-content-microchip_tdfn-8-2x3-mny 'Footprint: Microchip TDFN-8-2x3-MNY')
   - [MCP6N11[T]-100E/MNY](https://ww1.microchip.com/downloads/en/DeviceDoc/25073A.pdf) &mdash; 100V/V min. gain • TDFN-8 [👣](https://github.com/kicad-unofficial/footprints#user-content-microchip_tdfn-8-2x3-mny 'Footprint: Microchip TDFN-8-2x3-MNY')
 
-### NXP
+### Nexperia
 
 - [74LV1T34-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) [🚗](#automotive-qualified-parts 'Automotive Qualified Part') &mdash; single supply translating buffer • 5V<sub>max</sub>
-  - [74LV1T34GV-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) &mdash; SC-74A [👣](https://github.com/kicad-unofficial/footprints#user-content-nxp_sot753 'Footprint: NXP SOT753')
-  - [74LV1T34GW-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) &mdash; TSSOP-5 [👣](https://github.com/kicad-unofficial/footprints#user-content-nxp_sot353-1 'Footprint: NXP SOT353-1')
+  - [74LV1T34GV-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) &mdash; SC-74A [👣](https://github.com/kicad-unofficial/footprints#user-content-nexperia_sot753 'Footprint: Nexperia SOT753')
+  - [74LV1T34GW-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) &mdash; TSSOP-5 [👣](https://github.com/kicad-unofficial/footprints#user-content-nexperia_sot353-1 'Footprint: Nexperia SOT353-1')
 
 ### onsemi
 
