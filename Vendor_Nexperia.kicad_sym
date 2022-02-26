@@ -107,7 +107,7 @@
     (property "Footprint" "Vendor_Nexperia:Nexperia_SOD882" (id 2) (at 0 -5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://au.mouser.com/datasheet/2/916/PESD3V3V1BL-1599595.pdf" (id 3) (at 0 -7.62 0)
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD3V3V1BL.pdf" (id 3) (at 0 -7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "diode tvs esd automotive aec" (id 4) (at 0 0 0)
