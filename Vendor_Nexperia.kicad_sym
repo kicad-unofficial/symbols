@@ -110,7 +110,10 @@
     (property "Datasheet" "https://au.mouser.com/datasheet/2/916/PESD3V3V1BL-1599595.pdf" (id 3) (at 0 -7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "low capacitance bidirectional ESD protection diode, 3.3Vrwm" (id 4) (at 0 0 0)
+    (property "ki_keywords" "diode tvs esd automotive aec" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "low capacitance bidirectional ESD protection diode, 3.3Vrwm, automotive qualified" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PESD3V3V1BL_0_1"

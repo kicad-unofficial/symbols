@@ -99,7 +99,7 @@ library contains symbols for a specific vendor or manufacturer.
 - [74LV1T34-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) [🚗](#automotive-qualified-parts 'Automotive Qualified Part') &mdash; single supply translating buffer • 5V<sub>max</sub>
   - [74LV1T34GV-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) &mdash; SC-74A [👣](https://github.com/kicad-unofficial/footprints#user-content-nexperia_sot753 'Footprint: Nexperia SOT753')
   - [74LV1T34GW-Q100](https://assets.nexperia.com/documents/data-sheet/74LV1T34_Q100.pdf) &mdash; TSSOP-5 [👣](https://github.com/kicad-unofficial/footprints#user-content-nexperia_sot353-1 'Footprint: Nexperia SOT353-1')
-- [PESD3V3V1BL](https://au.mouser.com/datasheet/2/916/PESD3V3V1BL-1599595.pdf) &mdash; low capacitance bidirectional ESD protection diode • 3.3V<sub>rwm</sub> [👣](https://github.com/kicad-unofficial/footprints#user-content-nexperia_sod882 'Footprint: Nexperia SOD882')
+- [PESD3V3V1BL](https://au.mouser.com/datasheet/2/916/PESD3V3V1BL-1599595.pdf) [🚗](#automotive-qualified-parts 'Automotive Qualified Part') &mdash; low capacitance bidirectional ESD protection diode • 3.3V<sub>rwm</sub> [👣](https://github.com/kicad-unofficial/footprints#user-content-nexperia_sod882 'Footprint: Nexperia SOD882')
 
 ### onsemi
 
